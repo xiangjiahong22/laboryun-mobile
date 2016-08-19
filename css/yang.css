@@ -48,7 +48,8 @@ input.btn-orange{display: block;width: 100%;background-color: #fc6b00;border-col
 .questionPublish h3{font-size: 0.5rem;line-height: 0.7rem;padding: 0.25rem 0.3rem;}
 .questionPublish div .pull-left span{color: #999;font-size: 0.35rem;line-height: 0.55rem;}
 .questionPublish div .pull-right span{color: #999;font-size: 0.35rem;line-height: 0.55rem;}
-.focus.active{display: block;background: #dadada;padding: 0.1rem 0.3rem;color: #666;font-size: 0.35rem;border-radius: 4px;}
+.focus{display: inline-block;background: #fc6b00;padding: 0.1rem 0.3rem;color: #fff;font-size: 0.35rem;border-radius: 4px;}
+.focus.active{background: #dadada;color: #666;}
 .questionPublish .col-xs-6 img{width: 15%;}
 .questionPublish .col-xs-6{border: 1px solid #dadada;height: 2rem;vertical-align: middle;text-align: center;margin-bottom: 0.4rem;}
 .questionPublish .col-xs-6 span{line-height: 2rem;}
@@ -63,7 +64,18 @@ input.btn-orange{display: block;width: 100%;background-color: #fc6b00;border-col
 .addAnswer span{vertical-align: middle}
 #questionAnswer{display: none;margin-top: 0.3rem;}
 
+/*话题*/
+.topicList ul li{margin-top: 0.3rem;padding: .3rem;background: #fff;}
+.topicList ul li h3{font-size: 0.5rem;line-height: 0.7rem;}
+.topicList ul li p{font-size: 0.4rem;line-height: 0.6rem;padding: 0.2rem 0;}
 
+/*话题内容*/
+.topicDetail{margin-top: 0.3rem;padding: 0.3rem;background: #fff;}
+.topicDetail>div{margin-bottom: 0.3rem;}
+.topicDetail h3{font-size: 0.5rem;line-height: 0.7rem;margin-top: 0.25rem}
+.topicDetail span{font-size: 0.35rem;line-height: 0.5rem;color: #999;}
+.topicDetail .focus{margin-top: 0.25rem;}
+.topicDetail p{color: #666;font-size: 0.4rem;line-height: 0.7rem;}
 
 
 
