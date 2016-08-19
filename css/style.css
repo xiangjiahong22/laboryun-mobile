@@ -12,6 +12,13 @@ html,body,h1,h2,h3,h4,h5,h6,div,p,img,a,form,input,textarea,ul,li,dl,dt,dd{margi
 .minPaddingL{padding-left: 5px;}
 .minPaddingR{padding-right: 5px;}
 
+.lightCr{color: #999999;}
+.handleBtn{display: inline-block;width: 2rem;height: 0.9rem;line-height: 0.9rem;text-align: center;font-size: 14px;border-radius: 3px;
+	margin-top: 0.3rem;}
+.delBtn{color: #333333;background: #e6e7e8;}
+.dealIng{color: #fff;background: #f8ac59;}
+.dealSuccess{color: #fff;background: #1ab394;}
+
 :-moz-placeholder { 
     color: #aaaaaa;font-family: "Microsoft Yahei"!important;font-size: 0.4rem  
 }
@@ -59,4 +66,43 @@ textarea::-webkit-input-placeholder {
 	border-radius: 5px;color: #fff;font-size: 0.45rem;}
 .delFollowBtn{background: #dadada;color: #666666;}
 .followList .mui-table-view-cell{padding: 22px 15px;}
+
+.topTogNav{overflow: hidden;}
+.topTogNav a{display: inline-block;width: 50%;float: left;background: #e1e1e1;color: #333333;
+	height: 1.4rem;line-height: 1.4rem;text-align: center;font-size: 0.5rem;}
+.topTogNav a.active{background: #6eb92a;color: #fff;}
+
+.expertList{position: inherit;background: none;}
+.expertList .mui-media-object{width: 60px;border-radius: 100%;max-width: 60px;height: 60px;}
+.expertList .mui-media-body .lightCr{font-size: 0.4rem;margin-left: 3px;}
+.expertList .mui-media-body .time{font-size: 0.35rem;margin-left: 0;}
+.expertList .mui-media-body {max-width: 5.5rem;}
+.expertList .mui-media-body .mui-ellipsis{color: #666666;}
+.expertList .mui-table-view-cell{padding-right: 0;margin-top: 0.4rem;background: #fff;}
+.expertList .mui-ellipsis{padding: 0.05rem 0;}
+.expertList .mui-table-view-cell:after{background: none;}
+.expertList .mui-pull-right{margin-right: 15px;}
+.expertList .mui-table-view-cell a{margin: 0;padding: 0;display: inline-block;width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
