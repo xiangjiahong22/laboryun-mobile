@@ -1,0 +1,55 @@
+/*common style 2016-08-04*/
+html,body,h1,h2,h3,h4,h5,h6,div,p,img,a,form,input,textarea,ul,li,dl,dt,dd{margin: 0;padding: 0;list-style: none;font-family: "Microsoft Yahei";}
+
+.noMargin{margin: 0!important;}
+.noPadding{padding:0!important;}
+.noPaddingL{padding-left: 0;}
+.noPaddingR{padding-right: 0;}
+.miniPadding{padding: 0 10px!important;}
+.miniPaddingL{padding-left: 10px;}
+.miniPaddingR{padding-right: 10px;}
+.miniMarginL{margin-left: 10px;}
+.minPaddingL{padding-left: 5px;}
+.minPaddingR{padding-right: 5px;}
+
+:-moz-placeholder { 
+    color: #aaaaaa;font-family: "Microsoft Yahei"!important;font-size: 0.4rem  
+}
+::-moz-placeholder { 
+    color: #aaaaaa;font-family: "Microsoft Yahei"!important;;font-size: 0.4rem
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #aaaaaa;font-family: "Microsoft Yahei"!important;;font-size: 0.4rem
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #aaaaaa;font-family: "Microsoft Yahei"!important;;font-size: 0.4rem
+}
+
+.mui-content{max-width: 640px;margin: 0 auto;}
+.mui-slider-indicator .mui-indicator{background: #fff;border-color: #d2d2d2;box-shadow: none;width: 8px;height: 8px;}
+.mui-slider-indicator .mui-active.mui-indicator{background: #7accbe;border-color: #7accbe;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
