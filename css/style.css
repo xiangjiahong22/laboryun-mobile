@@ -7,17 +7,21 @@ html,body,h1,h2,h3,h4,h5,h6,div,p,img,a,form,input,textarea,ul,li,dl,dt,dd{margi
 .noPaddingR{padding-right: 0;}
 .miniPadding{padding: 0 10px!important;}
 .miniPaddingL{padding-left: 10px;}
+.miniPadding{padding: 0 10px;}
 .miniPaddingR{padding-right: 10px;}
 .miniMarginL{margin-left: 10px;}
 .minPaddingL{padding-left: 5px;}
 .minPaddingR{padding-right: 5px;}
 
 .lightCr{color: #999999;}
+.themeCr{color: #fc6b00;}
 .handleBtn{display: inline-block;width: 2rem;height: 0.9rem;line-height: 0.9rem;text-align: center;font-size: 14px;border-radius: 3px;
 	margin-top: 0.3rem;}
 .delBtn{color: #333333;background: #e6e7e8;}
-.dealIng{color: #fff;background: #f8ac59;}
+.dealIng{color: #fff;background: #fc6b00;}
 .dealSuccess{color: #fff;background: #1ab394;}
+input.subBtn,a.subBtn{width: 100%;height: 1.2rem;background: #fc6b00;color: #fff;border: 0;font-size: 0.5rem;
+	margin-top: 0.4rem;animation: 0;transition-duration:0;transition:inherit}
 
 :-moz-placeholder { 
     color: #aaaaaa;font-family: "Microsoft Yahei"!important;font-size: 0.4rem  
@@ -33,6 +37,10 @@ input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
     color: #aaaaaa;font-family: "Microsoft Yahei"!important;;font-size: 0.4rem
 }
+
+/*start*/
+.star{display: inline-block;width: 20px;height: 20px;padding-right: 3px;}
+.star img{width: 20px;height: 20px;vertical-align: middle;}
 
 .mui-content{max-width: 640px;margin: 0 auto;}
 .mui-slider-indicator .mui-indicator{background: #fff;border-color: #d2d2d2;box-shadow: none;width: 8px;height: 8px;}
@@ -75,7 +83,7 @@ textarea::-webkit-input-placeholder {
 .expertList{position: inherit;background: none;}
 .expertList .mui-media-object{width: 60px;border-radius: 100%;max-width: 60px;height: 60px;}
 .expertList .mui-media-body .lightCr{font-size: 0.4rem;margin-left: 3px;}
-.expertList .mui-media-body .time{font-size: 0.35rem;margin-left: 0;}
+.expertList .mui-media-body .time{font-size: 0.4rem;margin-left: 0;}
 .expertList .mui-media-body {max-width: 5.5rem;}
 .expertList .mui-media-body .mui-ellipsis{color: #666666;}
 .expertList .mui-table-view-cell{padding-right: 0;margin-top: 0.4rem;background: #fff;}
@@ -83,6 +91,76 @@ textarea::-webkit-input-placeholder {
 .expertList .mui-table-view-cell:after{background: none;}
 .expertList .mui-pull-right{margin-right: 15px;}
 .expertList .mui-table-view-cell a{margin: 0;padding: 0;display: inline-block;width: 100%;}
+
+.expertModule{text-align: center;padding: 0.3rem 0;background: #fff;font-size: 0.4rem;color: #999999;}
+.expertModule .expertPic{width: 3rem;height: 3rem;border-radius: 100%;}
+.expertModule .name{font-size: 0.5rem;margin: 10px 0;color: #333;}
+.expertModule .name .lightCr{font-size: 0.38rem;}
+.expertModule .major{font-size: 0.45rem;color: #666666;margin-bottom: 10px;margin-top: 5px;}
+.expertModule .time{font-size: 0.4rem;}
+
+.expertInfoUl{padding: 0 15px;overflow: hidden;padding: 0.5rem 0 0.3rem;}
+.expertInfoUl .tit{font-size: 0.45rem;line-height: 0.6rem;}
+.expertInfoUl .details{font-size: 0.45rem;color: #fc6b00;margin-top: 5px;line-height: 0.6rem}
+.expertInfoUl li{border-right: 1px solid #e6e7e8;}
+
+.expertInfoModule{background: #fff;margin-top: 0.4rem;}
+.expertInfoModule h2{height: 1.2rem;line-height: 1.2rem;border-bottom: 1px solid #d7d7d7;
+	text-align: center;font-size: 0.5rem;font-weight: normal;}
+.expertInfoModule .con{padding: 15px;}
+.expertInfoModule .con p{font-size: 0.38rem;line-height: 0.6rem;color: #333333;}
+
+.viewWays{margin-top: 0.4rem;text-align: center;padding-bottom: 0.5rem;overflow: hidden;}
+.viewWays .viewCon{background: #fff;padding: 15px 0;}
+.viewWays li{padding: 0 5px;}
+.viewWays .viewIcon{display: inline-block;width: 1.5rem;height: 1.5rem;border: 1px solid #fc6b00;padding: 10px;
+	border-radius: 100%;line-height: 1.5rem;}
+.viewWays .viewIcon img{display: inline-block;vertical-align: baseline;max-width: 100%;}
+.viewWays .viewText{font-size: 0.4rem;color: #333;line-height: 1rem;}
+.viewWays .price{font-size: 0.3rem;}
+.viewWays .price .themeCr{font-size: 0.45rem;}
+
+.expertComment{background: #fff;margin-top: 0.4rem;}
+.expertComment .commentTit{height: 1.2rem;line-height: 0.9rem;font-size: 0.45rem;border-bottom: 1px solid #e1e1e1;
+	padding: 0 15px;}
+.expertComment .commentTit .tit{display: inline-block;margin-right: 10px;}
+.commentArea{padding: 10px;height: 2.5rem;border: none;}
+.expertComment .commentTit img{vertical-align: sub;margin-top: 6px;}
+.expertComment .commentTit .star{margin-top: 6px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no"/>
+		<title>专家-评论</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		
+		<script src="js/jquery-1.11.1.js"></script>
+		<script src="js/common.js"></script>
+	</head>
+	<body>
+		<div class="mui-content">
+			<div class="expertModule">
+				<img src="img/expertPic.jpg" alt="" class="expertPic" />
+				<h1 class="name">陈琳<span class="lightCr">&nbsp;(专家)</span></h1>
+				<p class="major">自由顾问·管理咨询顾问</p>
+				<p class="time">工作年限：<span class="themeCr">10</span>年</p>
+				<ul class="expertInfoUl">
+					<li class="col-xs-4 col-md-6">
+						<p class="tit">服务</p>
+						<p class="details">0次</p>
+					</li>
+					<li class="col-xs-4 col-md-6">
+						<p class="tit">咨询</p>
+						<p class="details">100.00元</p>
+					</li>
+					<li class="col-xs-4 col-md-6">
+						<p class="tit">收藏</p>
+						<p class="details">3次</p>
+					</li>
+				</ul>
+			</div>
+			<div class="expertComment">
+				<form action="">
+					<h3 class="commentTit">
+						<span class="tit">评分</span>
+						<span class="star"><img src="img/star2.png"/></span>
+						<span class="star"><img src="img/star2.png"/></span>
+						<span class="star"><img src="img/star2.png"/></span>
+						<span class="star"><img src="img/star2.png"/></span>
+						<span class="star"><img src="img/star2.png"/></span>
+					</h3>
+					<textarea name="" class="commentArea" placeholder="请输入评价内容"></textarea>
+					<input type="hidden" class="starInp"/>
+					<div class="col-xs-12">
+						<input type="submit" value="提&nbsp;交" class="subBtn" />
+					</div>
+				</form>
+			</div>
+			
+		</div>
+		<script>
+			(function($){
+				$().ready(function(){
+					$('.commentTit').on('click','.star',function(){
+						var _thisIndex=$(this).index();
+						$('.starInp').val(_thisIndex);
+						
+						$('.commentTit .star img').attr('src','img/star2.png');
+						$('.commentTit .star:lt('+_thisIndex+') img').attr('src','img/star1.png');
+					})
+				})
+			})(jQuery);
+		</script>
+	</body>
+</html>
