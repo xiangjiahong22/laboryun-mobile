@@ -31,25 +31,32 @@ textarea::-webkit-input-placeholder {
 .mui-slider-indicator .mui-indicator{background: #fff;border-color: #d2d2d2;box-shadow: none;width: 8px;height: 8px;}
 .mui-slider-indicator .mui-active.mui-indicator{background: #7accbe;border-color: #7accbe;}
 
+/*userCenter*/
+.userCenterTop{background: #fc6b00;padding: 0.4rem 0;text-align: center;overflow: hidden;}
+.userCenterTop .followWrap{color: #fff;font-size: 24px;margin-top: 0.5rem;}
+.userCenterTop .followWrap .num{font-size: 45px;color: #fff;line-height: 0.7rem;font-family: "宋体";}
 
+.uerPic img{width: 120px;height: 120px;border:2px solid #f9f9fb;border-radius: 100%;}
+.userFollowBtn{display: inline-block;width: 2.8rem;height:1rem;background: #ffffff;text-align: center;line-height: 1rem;
+	border-radius: 5px;color: #fc6b00;font-size: 0.45rem;margin-top: 0.3rem;}
 
+.followWrap .txt{color: #fff;margin-top: 0.3rem;font-size: 0.45rem;}
+.userCenterTop .followWrap div{border-right: 1px solid #fed3b3;}
+.userCenterTop .followWrap div:last-child{border-right: 0;}
 
+.userInfoList .mui-table-view{padding: 6px 15px;margin-top: 0.4rem;}
+.userInfoList .mui-table-view:before,.userInfoList .mui-table-view:after{background: none;}
+.userInfoList .mui-table-view a{color: #333;}
+.userInfoList .mui-table-view-cell{padding: 11px 0px;}
+.userInfoList .icon{width: 25px;margin-right: 3px;margin-top: -3px;}
+.userInfoList .mui-navigate-right:after, .mui-push-right:after{font-size: 0.6rem;}
 
+.followList .mui-ellipsis{white-space: normal;padding: 5px 0;}
+.followList .mui-media-object{width: 80px;border-radius: 100%;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.followBtn{display: inline-block;width: ;}
+.follow{display: inline-block;width: 2.8rem;height:1rem;background: #fc6b00;text-align: center;line-height: 1rem;
+	border-radius: 5px;color: #fff;font-size: 0.45rem;}
+.delFollowBtn{background: #dadada;color: #666666;}
+.followList .mui-table-view-cell{padding: 22px 15px;}
 
