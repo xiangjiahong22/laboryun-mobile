@@ -1,0 +1,12 @@
+/*.epayHeader{height: 1.5rem;background: #fff;}*/
+/*.epayHeader a,.epayHeader h1{font-size: 0.5rem;line-height: 1.5rem;color: #333;}*/
+.clear:after{
+    display: block;
+    content: '';
+    clear: both;
+    overflow: hidden;
+}
+.clear{zoom:1}
+a{color: #333;text-decoration: none;}
+a:hover{color: #333;text-decoration: none;}
+.mui-table-view-cell.mui-active{background: #fff;}
