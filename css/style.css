@@ -149,13 +149,14 @@ textarea::-webkit-input-placeholder {
 .cardList .list .listCon{background: #fff;padding-top: 12px;padding-bottom: 10px;}
 .cardList .list .name{background: #fff;padding-bottom: 12px;color: #666;}
 
-.balanceForm{background: #fff;padding-left: 15px;margin: 10px 0;color: #666666;font-size: 0.4rem;}
-.balanceForm .formLine{border-bottom: 1px solid #dfdfdf;padding: 15px 0;}
+.balanceForm{background: #fff;margin: 10px 0;color: #666666;font-size: 0.4rem;}
+.balanceForm .formLine{border-bottom: 1px solid #dfdfdf;padding: 15px 0;padding-left: 15px;}
 .balanceForm .last{border-bottom: 0;}
 .balanceForm .formLine p{line-height: 0.6rem;}
 .balanceForm .inp{margin-top: 10px;width: 96%;}
 
-
+.orderTable{background: #fff;margin-top: 10px;}
+.orderTable thead th{border: none;}
 
 
 

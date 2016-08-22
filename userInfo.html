@@ -214,6 +214,9 @@
 								<li class="mui-table-view-cell">
 									<a href="#orderRecord" class="mui-navigate-right">交易记录</a>
 								</li>
+								<li class="mui-table-view-cell">
+									<a href="#news" class="mui-navigate-right">消息</a>
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -361,33 +364,101 @@
 			<div id="orderRecord" class="mui-page">
 				<div class="mui-navbar-inner mui-bar mui-bar-nav">
 					<button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
-						<span class="mui-icon mui-icon-left-nav"></span>设置
+						<span class="mui-icon mui-icon-left-nav"></span>返回
 					</button>
-					<h1 class="mui-center mui-title">关于MUI</h1>
+					<h1 class="mui-center mui-title">交易记录</h1>
 				</div>
 				<div class="mui-page-content">
 					<div class="mui-scroll-wrapper">
 						<div class="mui-scroll">
-							<ul class="mui-table-view">
-								<li class="mui-table-view-cell mui-plus-visible">
-									<a id="rate" class="mui-navigate-right">评分鼓励</a>
-								</li>
-								<li class="mui-table-view-cell mui-plus-visible">
-									<a id="welcome" class="mui-navigate-right">欢迎页</a>
-								</li>
-								<li class="mui-table-view-cell mui-plus-visible">
-									<a id="share" class="mui-navigate-right">分享推荐</a>
-								</li>
-								<li class="mui-table-view-cell">
-									<a id="tel" class="mui-navigate-right">客服电话</a>
-								</li>
-								<li class="mui-table-view-cell">
-									<a id="feedback-btn" href="#feedback" class="mui-navigate-right">问题反馈</a>
-								</li>
-								<li id="check_update" class="mui-table-view-cell mui-plus-visible">
-									<a id="update" class="mui-navigate-right">检查更新</a>
-								</li>
-							</ul>
+							<table class="table table-responsive orderTable">
+								<thead>
+									<tr>
+										<th>交易类型</th>
+										<th>金额</th>
+										<th>时间</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>回答XX的问题</td>
+										<td><span class="themeCr">4</span></td>
+										<td><span class="time">2016-12-12</span></td>
+									</tr>
+									<tr>
+										<td>给予XX的回答问题奖励</td>
+										<td><span class="themeCr">-2</span></td>
+										<td><span class="time">2016-12-12</span></td>
+									</tr>
+									<tr>
+										<td>专家付费</td>
+										<td><span class="themeCr">-50</span></td>
+										<td><span class="time">2016-12-12</span></td>
+									</tr>
+									<tr>
+										<td>专家收取费用</td>
+										<td><span class="themeCr">80</span></td>
+										<td><span class="time">2016-12-12</span></td>
+									</tr>
+									<tr>
+										<td>提现</td>
+										<td><span class="themeCr">-120</span></td>
+										<td><span class="time">2016-12-12</span></td>
+									</tr>
+									<tr>
+										<td>提现手续费</td>
+										<td><span class="themeCr">-50</span></td>
+										<td><span class="time">2016-12-12</span></td>
+									</tr>
+									<tr>
+										<td>会员充值</td>
+										<td><span class="themeCr">-200</span></td>
+										<td><span class="time">2016-12-12</span></td>
+									</tr>
+								</tbody>
+							</table>
+							<div class="col-xs-12">
+								<input type="button" class="subBtn formBtn mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left" value="返回">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="news" class="mui-page">
+				<div class="mui-navbar-inner mui-bar mui-bar-nav">
+					<button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
+						<span class="mui-icon mui-icon-left-nav"></span>返回
+					</button>
+					<h1 class="mui-center mui-title">交易记录</h1>
+				</div>
+				<div class="mui-page-content">
+					<div class="mui-scroll-wrapper">
+						<div class="mui-scroll">
+							<table class="table table-responsive orderTable">
+								<tbody>
+									<tr>
+										<td>回答XX的问题</td>
+									</tr>
+									<tr>
+										<td>XXX关注了你</td>
+									</tr>
+									<tr>
+										<td>XX专家确认了我的订单</td>
+									</tr>
+									<tr>
+										<td>你的专家申请未审核通过</td>
+									</tr>
+									<tr>
+										<td>你有一笔提现正在申请</td>
+									</tr>
+									<tr>
+										<td>回答了问题，奖励<span class="themeCr">10元</span></td>
+									</tr>
+									<tr>
+										<td>会员充值成功</td>
+									</tr>
+								</tbody>
+							</table>
 						</div>
 					</div>
 				</div>
