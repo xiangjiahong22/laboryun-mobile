@@ -77,7 +77,27 @@ input.btn-orange{display: block;width: 100%;background-color: #fc6b00;border-col
 .topicDetail .focus{margin-top: 0.25rem;}
 .topicDetail p{color: #666;font-size: 0.4rem;line-height: 0.7rem;}
 
+/*他的回答*/
+.hisAnswer{margin-top: 0.3rem;}
+.hisAnswer ul li{background: #fff;margin-bottom: 0.3rem;padding: 0.4rem 15% 0.4rem 0.4rem;}
+.hisAnswer ul li span{color: #999;font-size: 0.4rem;line-height: 0.6rem;}
+.hisAnswer ul li p{color: #666;font-size: 0.4rem;line-height: 0.6rem;margin-top: 0.2rem;}
 
+/*他关注的*/
+.concernList{margin-top: 0.3rem;}
+.concernList ul li{position: relative;padding:0.5rem 0.3rem;margin-bottom: 0.3rem;}
+.concernList ul li a{height: 1.4rem;line-height: 1.4rem;display: block}
+.concernList ul li img{max-height: 1.4rem;}
+.concernList .mui-navigate-right:after{font-size: 0.8rem;}
+
+/*登录*/
+.login{margin-top: 0.5rem;}
+.login label{margin-bottom: 0;font-weight: normal;}
+.login .mui-input-group{background: none;}
+.login .mui-input-group:after{height: 0;}
+.login .mui-input-group .mui-input-row{height: 1.6rem;background: #fff;}
+.login .mui-input-group .mui-input-row input,.login .mui-input-group .mui-input-row label{height: 1.6rem;line-height: 2;}
+.login .mui-input-group .mui-input-row label{padding-right: 0;}
 
 
 
