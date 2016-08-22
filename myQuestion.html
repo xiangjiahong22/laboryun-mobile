@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>我的提问/回答</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <meta name="format-detection" content="telephone=no"/>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/mui.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/yang.css">
+
+  <script src="js/jquery-1.11.1.js"></script>
+  <script src="js/mui.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/common.js"></script>
+</head>
+<body>
+
+<div class="mui-content">
+  <div class="questionPublish">
+    <div>
+      <a href="" class="tag">互联网</a>
+      <a href="" class="tag">移动互联网</a>
+      <a href="" class="tag">金融</a>
+    </div>
+    <h3>金融2458?</h3>
+    <div class="clear">
+      <div class="pull-left">
+        <span>1人关注  0条评论</span>
+      </div>
+      <div class="pull-right">
+        <span>价值：258.00元</span>
+      </div>
+    </div>
+    <div class="addAnswer">
+      <img src="image/icon4.png" alt="">
+      <span>添加回答</span>
+    </div>
+    <form action="" class="rewardForm">
+    	<ul>
+	      <li class="clear">
+	        <div class="col-xs-2 noPadding">
+	          <a href="">
+	            <img class="img-responsive borderRadius" src="image/userImg.jpg" alt="">
+	          </a>
+	        </div>
+	        <div class="col-xs-10 noPaddingR">
+	          <span>MrToyy回答了问题</span>
+	          <p>资产收购与直接股权收购是两种不同性质的交易活动，根据《财政部 国家税务总局关 于企业重组业务企业所得税处理若干问题的通知》财税资
+	            产收购与直接股权收购是两种不同性质的交易活动，根据《财政部 国家税务总局关 于企业重组业务企业所得税处理若干问题的通知》财税</p>
+	        </div>
+	        <div class="col-xs-12 col-md-12 setReward">
+	        	分配奖励 <input type="tel" class="inp"/> 元
+	        </div>
+	      </li>
+	      <li class="clear">
+	        <div class="col-xs-2 noPadding">
+	          <a href="">
+	            <img class="img-responsive borderRadius" src="image/userImg.jpg" alt="">
+	          </a>
+	        </div>
+	        <div class="col-xs-10 noPaddingR">
+	          <span>MrToyy回答了问题</span>
+	          <p>资产收购与直接股权收购是两种不同性质的交易活动，根据《财政部 国家税务总局关 于企业重组业务企业所得税处理若干问题的通知》财税资
+	            产收购与直接股权收购是两种不同性质的交易活动，根据《财政部 国家税务总局关 于企业重组业务企业所得税处理若干问题的通知》财税</p>
+	        </div>
+	        <div class="col-xs-12 col-md-12 setReward">
+	        	分配奖励 <input type="tel" class="inp"/> 元
+	        </div>
+	      </li>
+	    </ul>
+	    <div class="col-xs-12">
+	    	<input type="submit" class="formBtn subBtn" value="确定"/>
+	    </div>
+    </form>
+  </div>
+  <div id="questionAnswer">
+    <form action="">
+      <textarea name="" id="" rows="6" class="form-control"></textarea>
+      <input type="submit" value="提交" class="btn-orange" style="width: 95%;margin: 0.3rem auto;border-radius: 4px;">
+    </form>
+  </div>
+</div>
+
+<script>
+  $(function(){
+    $('.addAnswer').on('click',function(){
+      $('.questionPublish').hide();
+      $('#questionAnswer').show();
+    })
+  })
+</script>
+
+</body>
+</html>

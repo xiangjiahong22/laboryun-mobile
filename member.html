@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no"/>
+		<title>会员</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		
+		<script src="js/jquery-1.11.1.js"></script>
+		<script src="js/common.js"></script>
+	</head>
+	<body>
+		<div class="mui-content">
+			<div class="memborBuy">
+				<h2>会员购买</h2>
+				<ul class="memberUl">
+					<li class="col-xs-4 col-md-4 active">
+						<div class="con">
+							<h3>一级会员</h3>
+							<p class="price">388.00</p>
+						</div>
+					</li>
+					<li class="col-xs-4 col-md-4">
+						<div class="con">
+							<h3>二级会员</h3>
+							<p class="price">388.00</p>
+						</div>
+					</li>
+					<li class="col-xs-4 col-md-4">
+						<div class="con">
+							<h3>三级会员</h3>
+							<p class="price">388.00</p>
+						</div>
+					</li>
+				</ul>
+				<div class="col-xs-12 col-md-12">
+					<a href="#" class="formBtn subBtn">购买会员</a>
+				</div>
+			</div>
+			<div class="memborBuy">
+				<h2>会员权限</h2>
+				<table class="table table-responsive">
+					<thead>
+						<tr>
+							<th>一级会员</th>
+							<th>二级会员</th>
+							<th>三级会员</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>知识库</td>
+							<td>知识库+在线课程</td>
+							<td>知识库+在线课程+萝卜云</td>
+						</tr>
+						<tr>
+							<td>知识库</td>
+							<td>知识库+在线课程</td>
+							<td>知识库+在线课程+萝卜云</td>
+						</tr>
+					</tbody>
+				</table>
+				<p class="tips">详情请见萝卜网官网</p>
+			</div>
+		</div>
+		<script>
+			(function($){
+				$().ready(function(){
+					$('.memberUl').on('click','li',function(){
+						var _thisIndex=$(this).index();
+						$('.memberUl li').removeClass('active');
+						$('.memberUl li').eq(_thisIndex).addClass('active');
+					})
+				})
+			})(jQuery);
+		</script>
+	</body>
+</html>
