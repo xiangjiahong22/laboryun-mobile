@@ -15,6 +15,11 @@ a:hover{color: #333;text-decoration: none;}
 
 .search{margin: 0.5rem;margin-bottom: 0;}
 .orange{color: #fc6b00;}
+.orange:hover{color: #fc6b00}
+.green{color: #6eb92a;}
+.green:hover{color: #6eb92a;}
+.borderOrange{border-color: #fc6b00!important;}
+.borderGreen{border-color: #6eb92a!important;}
 .borderRadius{border-radius: 50%;}
 
 /*社区*/
@@ -99,5 +104,33 @@ input.btn-orange{display: block;width: 100%;background-color: #fc6b00;border-col
 .login .mui-input-group .mui-input-row input,.login .mui-input-group .mui-input-row label{height: 1.6rem;line-height: 2;}
 .login .mui-input-group .mui-input-row label{padding-right: 0;}
 
+/*专家咨询*/
+.expertAdvice>div.clear{background: #fff;text-align: center;padding: 0.6rem 0;}
+.expertAdvice>div.clear a{display: inline-block;font-size: 0.4rem;line-height: 0.5rem;padding: 0.2rem 0.4rem;border-radius: 4px;
+    border: 1px solid transparent;}
+.expertAdvice ul{margin-top: 0.4rem;}
+.expertAdvice ul li{position: relative;}
+.expertAdvice ul li a{display: block;padding: 0.2rem;}
+.expertAdvice ul li .mask{position: absolute;left: 0;bottom: 0;background: rgba(0,0,0,.5);margin: 0.2rem;width: calc(100% - 0.4rem);
+    color: #fff;padding: 0.2rem;font-size: 0.4rem;line-height: 0.45rem;}
+.expertAdvice ul li .mask h4{font-size: 0.5rem;line-height: 0.5rem;}
+.expertAdvice ul li .mask p{margin-top: 0.2rem;}
+.expertAdvice ul li img{max-width: 100%;}
 
+
+/*专家搜索*/
+.expertList ul{margin-top: 0.3rem;}
+.expertList ul li{padding:0.5rem 0.3rem;margin-bottom: 0.3rem;background: #fff;}
+.expertList ul li a{display: block}
+.expertList ul li h4{font-size: 0.4rem;line-height: 0.5rem;}
+.expertList ul li div,.expertList ul li p{font-size: 0.35rem;line-height: 0.5rem;}
+.expertList ul li p{margin: 0.15rem 0;}
+.expertList ul li span{line-height: 1.7rem;}
+
+/*订单确认*/
+.orderSure h4{font-size: 0.35rem;line-height: 0.4rem;padding: 0.4rem 0.3rem;background: #f1f1f1;}
+.orderSure h3{font-size: 0.45rem;line-height: 0.6rem;padding: 0.3rem 0.3rem 0;background: #fff;}
+.orderSure>div{background: #fff;padding: 0.3rem 0.3rem 0.4rem;font-size: 0.45rem;line-height: 0.5rem;color: #666;}
+.orderSure form div{background: #fff;padding: 0.3rem 0.3rem 0.4rem;}
+.orderSure textarea{color: #666;}
 
