@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<meta name="format-detection" content="telephone=no"/>
-		<title>专家-评论</title>
+		<title>订单详情</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/mui.min.css">
 		<link rel="stylesheet" href="css/style.css">
@@ -34,37 +34,32 @@
 					</li>
 				</ul>
 			</div>
-			<div class="expertComment">
-				<form action="">
-					<h3 class="commentTit">
-						<span class="tit">评分</span>
-						<span class="star"><img src="img/star2.png"/></span>
-						<span class="star"><img src="img/star2.png"/></span>
-						<span class="star"><img src="img/star2.png"/></span>
-						<span class="star"><img src="img/star2.png"/></span>
-						<span class="star"><img src="img/star2.png"/></span>
-					</h3>
-					<textarea name="" class="commentArea" placeholder="请输入评价内容"></textarea>
-					<input type="hidden" class="starInp"/>
-					<div class="col-xs-12">
-						<input type="submit" value="提&nbsp;交" class="subBtn formBtn"  />
-					</div>
-				</form>
+			<div class="expertInfoModule">
+				<h2>问题描述</h2>
+				<div class="con">
+					<p>各行业优惠政策 [7年经验]</p>
+					<p>行政｜基建｜政策国家政策</p>
+					<p>相关行业： 通用行业</p>
+				</div>
 			</div>
-			
+			<div class="col-xs-12">
+				<a href="#" class="formBtn nonePay">待支付</a>
+			</div>
+			<div class="col-xs-12">
+				<a href="#" class="formBtn nonePay">待付款</a>
+			</div>
+			<div class="col-xs-12">
+				<a href="#" class="formBtn nonePay">待评价</a>
+			</div>
+			<div class="col-xs-12">
+				<a href="#" class="formBtn paySuccess">已完成</a>
+			</div>
+			<div class="col-xs-12">
+				<a href="#" class="formBtn payDel">取消订单</a>
+			</div>
+			<div class="col-xs-12">
+				<a href="#" class="formBtn payDel">已取消</a>
+			</div>
 		</div>
-		<script>
-			(function($){
-				$().ready(function(){
-					$('.commentTit').on('click','.star',function(){
-						var _thisIndex=$(this).index();
-						$('.starInp').val(_thisIndex);
-						
-						$('.commentTit .star img').attr('src','img/star2.png');
-						$('.commentTit .star:lt('+_thisIndex+') img').attr('src','img/star1.png');
-					})
-				})
-			})(jQuery);
-		</script>
 	</body>
 </html>
