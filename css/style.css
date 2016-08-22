@@ -12,9 +12,10 @@ html,body,h1,h2,h3,h4,h5,h6,div,p,img,a,form,input,textarea,ul,li,dl,dt,dd{margi
 .miniMarginL{margin-left: 10px;}
 .minPaddingL{padding-left: 5px;}
 .minPaddingR{padding-right: 5px;}
+.textRight{text-align: right;}
 
 .lightCr{color: #999999;}
-.themeCr{color: #fc6b00;}
+.themeCr{color: #fc6b00!important;}
 .handleBtn{display: inline-block;width: 2rem;height: 0.9rem;line-height: 0.9rem;text-align: center;font-size: 14px;border-radius: 3px;
 	margin-top: 0.3rem;}
 .delBtn{color: #333333;background: #e6e7e8;}
@@ -136,18 +137,23 @@ textarea::-webkit-input-placeholder {
 .expertComment .commentTit img{vertical-align: sub;margin-top: 6px;}
 .expertComment .commentTit .star{margin-top: 6px;}
 
+/*userInfo*/
+.nickForm{margin: 15px 0;border:1px solid #e0e0e0;overflow: hidden;height: 40px;}
+.nickForm .inp{width: 100%;border: none;height: 40px;border-radius: 0;}
+.nickForm .sub{width: 20%;float: left;border: none;height: 40px;background: #fc6b00;border-radius: 0;}
+.nickForm .mui-input-row{width: 80%;float: left;}
 
+.bankForm{margin: 10px 0;clear: both;}
+.cardList .list{margin-bottom: 5px;margin-top: 5px;}
+.cardList {overflow: hidden;}
+.cardList .list .listCon{background: #fff;padding-top: 12px;padding-bottom: 10px;}
+.cardList .list .name{background: #fff;padding-bottom: 12px;color: #666;}
 
-
-
-
-
-
-
-
-
-
-
+.balanceForm{background: #fff;padding-left: 15px;margin: 10px 0;color: #666666;font-size: 0.4rem;}
+.balanceForm .formLine{border-bottom: 1px solid #dfdfdf;padding: 15px 0;}
+.balanceForm .last{border-bottom: 0;}
+.balanceForm .formLine p{line-height: 0.6rem;}
+.balanceForm .inp{margin-top: 10px;width: 96%;}
 
 
 
