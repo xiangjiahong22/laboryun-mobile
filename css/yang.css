@@ -135,7 +135,7 @@ input.btn-orange{display: block;width: 100%;background-color: #fc6b00;border-col
 .orderSure textarea{color: #666;}
 
 .login .sure,.login .cancel{background: #fc6b00;height: auto!important;padding: 0.2rem 0.6rem;display: inline-block;border-radius: 4px;
-    margin-top: 0.3rem;margin-right: 0.5rem;font-size: 0.4rem;line-height: 0.6rem!important;}
+    margin-top: 0.3rem;margin-right: 0.5rem;font-size: 0.4rem;line-height: 0.6rem!important;border: 0;}
 .login .cancel{background: #f1f1f1;color:#666;}
 .btn-close{color:#fff;position: absolute;right: 0;top:0;background: #79ccbf;}
 .btn-delete{display:none;color:#fff;position: absolute;width:100%;border-radius: 4px;font-size: 0.35rem;top:-0.8rem;left:0;padding: 0.1rem;background: #79ccbf;}
@@ -154,5 +154,15 @@ input.btn-orange{display: block;width: 100%;background-color: #fc6b00;border-col
     font-size: 0.35rem;line-height: 0.5rem;position: relative;}
 .login textarea{border:1px solid #c8c7cc;width:95%;margin: 0.3rem auto;border-radius: 4px;}
 
-
+/*支付*/
+.pay{margin-top: 0.3rem;background: #fff;padding:0.3rem;}
+.pay h3{font-size: 0.5rem;line-height: 0.6rem;padding: 0.3rem 0;}
+.pay h4{font-size: 0.45rem;line-height: 0.6rem;padding: 0.3rem 0 0.5rem;text-align: right;color: #666;}
+.pay form{border-top: 1px solid #ededed;}
+.pay form>div{padding: 0.4rem 0;border-bottom: 1px solid #ededed;font-size: 0.4rem;}
+.pay form>div:last-child{border: none;}
+.pay form input{margin: 0;vertical-align: middle}
+.pay form span{vertical-align: middle}
+.pay form p{color: #666;font-size: 0.4rem;}
+.pay form label{vertical-align: middle;display: inline-block;margin:0;font-weight: normal;color: #333;}
 
