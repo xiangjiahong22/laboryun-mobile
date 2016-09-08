@@ -19,7 +19,6 @@
 		</style>
 		
 		
-		
 	</head>
 	<body>
 		<div class="mui-fullscreen">
@@ -335,7 +334,7 @@
 		});
 		mui('.mui-scroll-wrapper').scroll();
 		
-
+		var view = viewApi.view;
 		(function($) {
 			var oldBack = $.back;
 			$.back = function() {
@@ -346,6 +345,11 @@
 					oldBack();
 				}
 			};
+
+			view.addEventListener('pageShow', function(e) {
+			
+				alert();
+			});
 
 		})(mui);
 	
